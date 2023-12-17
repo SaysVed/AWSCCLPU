@@ -39,7 +39,7 @@ const Navbar = () => {
         <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
             <nav>
                 <div>
-                    <a href=""><img src={logo} alt="" /> AWS Cloud Club LPU</a>
+                    <a href=""><img src={logo} alt="" className="w-10 inline-block items-center" /><span className="">AWS Cloud Club LPU</span></a>
                 </div>
 
             </nav>
